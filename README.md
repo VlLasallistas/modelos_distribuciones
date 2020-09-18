@@ -55,7 +55,7 @@ En qué consiste el proceso de modelaje: características y ejemplos.
 
 * Identificar medidas para resumir las desviaciones de un ajuste no paramétrico, respecto de uno paramétrico
 
-* Uso de estimadores no paramétricos para aproximar paramétros (usado para empezar la busqueda de un proceimiento paramétrico)
+* Uso de estimadores no paramétricos para aproximar paramétros (usado para empezar la busqueda de un procedimiento paramétrico)
 
 ### A. 
 Dos estrategias para aproximar medidas resumen (promediso, varianzas, cuantiles/percentiles, etc.). Paramétrica:
@@ -101,8 +101,11 @@ plot(PercentilesxExample, main="",xlab="x")
 
 ```
 #### Cuartiles, Percentiles y cuantiles
-1er cuartil.
-3er cuartil.
+Mediana. 50 % de la prob de la distribucion.
+Ejemplo: 21.5
+Percentil. 1%,2%,3%,...100%
+1er cuartil. 25% 
+3er cuartil. 75%
 Generalizando: dada una función de distribución F(.), 0 < q < 1, se define qF tal que F(qF) = q. Esto incluye a la mediana, los cuartiles y los percentiles.
 
 De forma precisa: el cuantil q-ésimo qF es cualguier número que satisface:
@@ -114,13 +117,18 @@ Ejemplos:
 
 
 ### B.  Tools for Model Selection and Diagnostics
-
+http://cas.uqam.ca/
+```{r, eval=do_it}
+install.packages("CASdatasets")
+library(CASdatasets)
+```
 
 
 ## Referencias
 https://fac.ksu.edu.sa/sites/default/files/loss_models_part1.pdf
-https://openacttexts.github.io/Loss-Data-Analytics/C-ModelSelection.html
 
+https://openacttexts.github.io/Loss-Data-Analytics/C-ModelSelection.html
+Cap. 4
 # 3. Probabilidad en R
 
 # 4. Distribuciones
