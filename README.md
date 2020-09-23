@@ -14,7 +14,6 @@ output:
 
 
 [3. Plan del proyecto ](sesion3.md)
-[plain](sesion3.Rmd)
 
 # 1. Reproducibilidad  y Documentación
 

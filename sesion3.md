@@ -1,8 +1,19 @@
 Sesion3
 ================
 
-GitHub Documents
+Planteamiento del proyecto
 ----------------
+
+Plantear un cronograma 
+Identificar las tareas (especial las estimaciones)
+Identificar la relevancia relativa de cada tarea
+Plantear fechas de entrega y revisión
+
+Planteamiento del proyecto
+----------------
+
+Un ejemplo de análisis
+
 
 This is an R Markdown format used for publishing markdown documents to
 GitHub. When you click the **Knit** button all R code chunks are run and
