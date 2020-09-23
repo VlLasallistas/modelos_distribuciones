@@ -1,13 +1,19 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Contenidos
 1. Reproducibilidad (git)
 2. Proceso de modelaje
 3. Probabilidad en R
 4. Distribuciones
+
+---
+# Sesiones
+
+
+[3. Plan del proyecto ](sesion3.Rmd)
 
 # 1. Reproducibilidad  y Documentación
 
@@ -128,7 +134,10 @@ library(CASdatasets)
 https://fac.ksu.edu.sa/sites/default/files/loss_models_part1.pdf
 
 https://openacttexts.github.io/Loss-Data-Analytics/C-ModelSelection.html
-Cap. 4
+Cap. 4 
+Cap. 2
+Cap. 3
+Cap. 5
 # 3. Probabilidad en R
 
 # 4. Distribuciones
