@@ -14,6 +14,7 @@ output:
 
 
 [3. Plan del proyecto ](sesion3.Rmd)
+[pdf](sesion3.pdf)
 
 # 1. Reproducibilidad  y Documentación
 
