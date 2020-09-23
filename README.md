@@ -13,8 +13,8 @@ output:
 # Sesiones
 
 
-[3. Plan del proyecto ](sesion3.Rmd)
-[pdf](sesion3.pdf)
+[3. Plan del proyecto ](sesion3.md)
+[plain](sesion3.Rmd)
 
 # 1. Reproducibilidad  y Documentación
 
