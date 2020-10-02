@@ -6,32 +6,23 @@ output:
   slidy_presentation: default
   beamer_presentation: default
 ---
-
-
-## Slide con viñetas  y codigo
-
-- Establecer el directorio de trabajo
-```{r, echo = TRUE}
+```{r}
 getwd()
-#setwd("C:/Users/vicen/Documents/R/predictive_modelling/predictive_modelling")
+setwd("C:/Users/vicen/Documents/R/modelos_distribuciones")
 ```
-## Slide con viñetas  y codigo
-- Establecer los datos
 ```{r, echo = TRUE}
 # Define the data path and filename
 data.path <- "./data"
 data.fn <- "sim-modeling-dataset.csv"
 
 ```
-## Slide con viñetas  y codigo
-- Carga de datos:
-Exercise 1.1. Prepare your computing environment. Download the comma-delimited
-dataset sim-modeling-dataset.csv and load it into your environment.
-```{r}
-library(readr)
-sim_modeling_dataset <- read_csv("data/sim-modeling-dataset.csv")
-#View(sim_modeling_dataset)
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+#summary(cars)
+source("predictive/fns.R")
 ```
+
 ## Slide con viñetas  y codigo
 Alternativa: 
 ```{r}
@@ -64,13 +55,28 @@ dta <- read.csv(paste(data.path, data.fn, sep = "/"),
 
 ```
 
+## Slide con viñetas  y codigo
 
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-#summary(cars)
-source("./fns.R")
+- Establecer el directorio de trabajo
+```{r, echo = TRUE}
+getwd()
+#setwd("C:/Users/vicen/Documents/R/predictive_modelling/predictive_modelling")
 ```
+## Slide con viñetas  y codigo
+- Establecer los datos
+
+## Slide con viñetas  y codigo
+- Carga de datos:
+Exercise 1.1. Prepare your computing environment. Download the comma-delimited
+dataset sim-modeling-dataset.csv and load it into your environment.
+```{r}
+library(readr)
+sim_modeling_dataset <- read_csv("data/sim-modeling-dataset.csv")
+#View(sim_modeling_dataset)
+```
+
+
+
 
 ## Slide with Plot
 
